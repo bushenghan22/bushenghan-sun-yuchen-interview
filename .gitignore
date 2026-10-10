@@ -1,0 +1,43 @@
+# 忽略规则
+
+# 原始素材与临时工作区(不提交)
+.tmp/
+work/
+*.wav
+*.webm
+*.mp3
+*.m4a
+*.mp4
+
+# 转写中间产物
+*.jsonl
+*.srt
+progress.log
+transcript*.txt
+
+# 模型文件
+models/
+*.onnx
+*.bin
+*.pt
+
+# 工具目录
+.workbuddy-ai/
+.workbuddy/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 非公开文件(按原作者要求不进公开仓库)
+社媒文案.md
